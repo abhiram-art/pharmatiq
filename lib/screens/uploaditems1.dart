@@ -73,7 +73,7 @@ class _UploadPage1State extends State<UploadPage1> with AutomaticKeepAliveClient
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image(image: AssetImage("images/syr1.png"),height:250),
+            Image(image: AssetImage("public/images/syr1.png"),height:250),
             //Icon(Icons.shop_two, color: Colors.green, size: 200.0,),
             Padding(
               padding: EdgeInsets.only(top: 20.0),
@@ -122,7 +122,7 @@ class _UploadPage1State extends State<UploadPage1> with AutomaticKeepAliveClient
   capturePhotoWithCamera() async
   {
     Navigator.pop(context);
-    File imageFile = await ImagePicker.pickImage(source: ImageSource.camera, maxHeight: 680.0, maxWidth: 970.0);
+    File imageFile = await ImagePicker.pickImage(source: public/imagesource.camera, maxHeight: 680.0, maxWidth: 970.0);
     setState(() {
       file = imageFile;
     });
@@ -131,7 +131,7 @@ class _UploadPage1State extends State<UploadPage1> with AutomaticKeepAliveClient
   pickPhotoFromGallery() async
   {
     Navigator.pop(context);
-    File imageFile = await ImagePicker.pickImage(source: ImageSource.gallery,);
+    File imageFile = await ImagePicker.pickImage(source: public/imagesource.gallery,);
     setState(() {
       file = imageFile;
     });

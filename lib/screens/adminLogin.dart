@@ -49,7 +49,7 @@ class _AdminPageState extends State<AdminPage> {
                   height: 153,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('images/green3.png'),
+                          image: AssetImage('public/images/green3.png'),
                           fit: BoxFit.fill
                       )
                   ),

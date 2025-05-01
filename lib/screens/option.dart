@@ -47,7 +47,7 @@ class option extends StatelessWidget{
                   //),
                   // ],
                 ),
-                Image(image: AssetImage("images/tab.png"),height:100),
+                Image(image: AssetImage("public/images/tab.png"),height:100),
                 SizedBox(height: 15,),
                 Container(
                     height: 40,
@@ -62,7 +62,7 @@ class option extends StatelessWidget{
                             ]
                         )
                     ),
-                    //child: Image(image: AssetImage("images/tab.png"),height:250),
+                    //child: Image(image: AssetImage("public/images/tab.png"),height:250),
                     child: FlatButton(
                         onPressed: () {
                           Navigator.push(context,MaterialPageRoute(builder: (BuildContext context) => UploadPage()));
@@ -78,7 +78,7 @@ class option extends StatelessWidget{
                         color: Color.fromRGBO(0, 170, 140, 2)
                     ),),
                      SizedBox(height: 15,),
-                Image(image: AssetImage("images/syr1.png"),height:100),
+                Image(image: AssetImage("public/images/syr1.png"),height:100),
                      FlatButton(
                         onPressed: () {
                           Navigator.push(context,MaterialPageRoute(builder: (BuildContext context) => UploadPage1()));
@@ -94,7 +94,7 @@ class option extends StatelessWidget{
                         color: Color.fromRGBO(0, 170, 140, 2)
                     ),
                 SizedBox(height: 15,),
-                Image(image: AssetImage("images/mask (1).png"),height:100),
+                Image(image: AssetImage("public/images/mask (1).png"),height:100),
                      FlatButton(
                         onPressed: () {
                           Navigator.push(context,MaterialPageRoute(builder: (BuildContext context) => UploadPage2()));

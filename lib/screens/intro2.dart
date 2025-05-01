@@ -17,7 +17,7 @@ class Intro2 extends StatelessWidget {
                   height: 124,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('images/green3.png'),
+                          image: AssetImage('public/images/green3.png'),
                           fit: BoxFit.fill
                       )
                   ),
@@ -30,7 +30,7 @@ class Intro2 extends StatelessWidget {
                               width: 300,
                               height: 250,
                               decoration:
-                              BoxDecoration(image:DecorationImage(image:AssetImage('images/7.jpg'),fit: BoxFit.fitWidth), )
+                              BoxDecoration(image:DecorationImage(image:AssetImage('public/images/7.jpg'),fit: BoxFit.fitWidth), )
                           ),
                         ]
                     )

@@ -31,7 +31,7 @@ class _PlaceOrderState extends State<PlaceOrder>{
             children: [
               Padding(
                 padding: EdgeInsets.all(0.0),
-                child: Image.asset("images/cod1.png"),
+                child: Image.asset("public/images/cod1.png"),
               ),
               SizedBox(height: 10.0,),
               FlatButton(

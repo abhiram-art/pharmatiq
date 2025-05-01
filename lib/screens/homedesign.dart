@@ -107,14 +107,14 @@ class _DashboardPageState extends State<DashboardPage>
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
-                _buildListItem('Tablets', 'images/pills.png',
+                _buildListItem('Tablets', 'public/images/pills.png',
                     Color.fromRGBO(0, 170, 140, 6), Colors.white),
-                _buildListItem('Syrups', 'images/syrup.png',
+                _buildListItem('Syrups', 'public/images/syrup.png',
                     Color.fromRGBO(0, 170, 140, 6), Colors.white),
                 //Color(0xFFD7FADA), Colors.white),
-                _buildListItem('Covid essentials', 'images/mask (1).png',
+                _buildListItem('Covid essentials', 'public/images/mask (1).png',
                     Color.fromRGBO(0, 170, 140, 6), Colors.white),
-                _buildListItem('Others', 'images/flutother.png',
+                _buildListItem('Others', 'public/images/flutother.png',
                     Color.fromRGBO(0, 170, 140, 6), Colors.white),
               ],
             )),
@@ -144,7 +144,7 @@ class _DashboardPageState extends State<DashboardPage>
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(40.0),
                     image: DecorationImage(
-                        image: AssetImage('images/flutpost1.png'),
+                        image: AssetImage('public/images/flutpost1.png'),
                         fit: BoxFit.cover
                     )
                 ),

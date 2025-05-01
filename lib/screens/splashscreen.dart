@@ -43,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen>
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset('images/logo1.jpeg'),
+                    Image.asset('public/images/logo1.jpeg'),
                     SizedBox(height: 10.0,),
                     Text(
                       "PHARMATIq",

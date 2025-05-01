@@ -57,7 +57,7 @@ class _HomePage2State extends State<HomePage2> {
                   height: 153,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('images/green3.png'),
+                          image: AssetImage('public/images/green3.png'),
                           fit: BoxFit.fill
                       )
                   ),
@@ -216,7 +216,7 @@ class _HomePage2State extends State<HomePage2> {
                               Container(
                                 width: 60,
                                 height: 46,
-                                child: Image.asset('images/gicon.png'),
+                                child: Image.asset('public/images/gicon.png'),
                               ),
                             ),
                             InkWell(
@@ -228,7 +228,7 @@ class _HomePage2State extends State<HomePage2> {
                               Container(
                                 width: 60,
                                 height: 46,
-                                child: Image.asset('images/phone.png'),
+                                child: Image.asset('public/images/phone.png'),
                               ),
                             ),
 

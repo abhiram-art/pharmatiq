@@ -42,7 +42,7 @@ class _SignHomeState extends State<SignHome> {
                   height: 120,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('images/white1.jpg'),
+                          image: AssetImage('public/images/white1.jpg'),
                           fit: BoxFit.fill
                       )
                   ),
